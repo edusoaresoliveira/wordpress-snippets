@@ -1,4 +1,5 @@
 <snippet>
+	
 	<content><![CDATA[
 \$args = array(
 	'post_type'           => 'attachment',
