@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+\$args = array(
+	  'orderby'       => 'name', 
+    'order'         => 'ASC', 
+    'number'        => null,
+    'optioncount'   => false, 
+    'exclude_admin' => true, 
+    'show_fullname' => false,
+    'hide_empty'    => true,
+    'echo'          => true,
+    'feed'          => [empty string], 
+    'feed_image'    => [empty string],
+    'feed_type'     => [empty string],
+    'style'         => 'list',
+    'html'          => true,
+    'exclude'       => [empty string],
+    'include'       => [empty string]
+);
+
+wp_list_authors( \$args );
+
+?>
+]]></content>
+	
+	<tabTrigger>author</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
