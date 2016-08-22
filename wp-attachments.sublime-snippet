@@ -3,7 +3,7 @@
 	<content><![CDATA[
 \$args = array(
 	'post_type'           => 'attachment',
-	'post_mime_type'      => 'application/pdf,application/msword,application/vnd.ms-powerpoint,application/vnd.ms-excel,application/zip,audio,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation'/*Select the type you need*/,
+	'post_mime_type'      => 'application/pdf,application/msword,application/vnd.ms-powerpoint,application/vnd.ms-excel,application/zip,audio,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation',/*Select the type you need*/
 	'numberposts'         => -1,
     	'post_status'         => null,
     	'post_parent'         => null,
