@@ -1,0 +1,10 @@
+<snippet>
+	
+	<content><![CDATA[
+echo get_category_parents( \$id, \$link, \$separator, \$nicename, \$visited ); ?>
+]]></content>
+	
+	<tabTrigger>category-name-parent</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
