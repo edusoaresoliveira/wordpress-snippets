@@ -21,7 +21,7 @@ if ( \$attachments ):
 		/*The content goes here*/
 	endforeach;
 endif;
-]]></content>
+	]]></content>
 	
 	<tabTrigger>attachments</tabTrigger>
 	<scope>source.php</scope>
