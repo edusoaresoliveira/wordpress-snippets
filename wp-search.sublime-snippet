@@ -1,0 +1,10 @@
+<snippet>
+
+	<content><![CDATA[
+get_search_form(); ?> 
+]]></content>
+	
+	<tabTrigger>search</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
