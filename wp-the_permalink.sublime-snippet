@@ -5,7 +5,7 @@
  * Codex: https://codex.wordpress.org/Function_Reference/the_permalink
  */
 the_permalink(); 
-]]></content>
+	]]></content>
 	
 	<tabTrigger>the_permalink</tabTrigger>
 	<scope>source.php</scope>
