@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Displays a link to the category or categories a post belongs to. This tag must be used within The Loop.
+ * codex: https://codex.wordpress.org/Function_Reference/the_category
+ */
+the_category( \$separator, \$parents, \$post_id ); ?>
+	]]></content>
+	
+	<tabTrigger>the_category</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
