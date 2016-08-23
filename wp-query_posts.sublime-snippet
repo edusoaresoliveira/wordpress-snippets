@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Sets up The Loop with query parameters.
+ * codex: https://codex.wordpress.org/Class_Reference/WP_Query
+ */
+query_posts( $args = array( 
+	'posts_per_page'   => -1,
+	'post__not_in'     => array(),
+	'offset'           => 0,
+	'cat'              => 2,
+	'category_name'    => ''
+	)
+);
+
+while ( have_posts() ) : the_post();
+   
+   /* Content goes here */
+
+endwhile;
+
+wp_reset_query();
+?>
+	]]></content>
+	
+	<tabTrigger>query_posts</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
