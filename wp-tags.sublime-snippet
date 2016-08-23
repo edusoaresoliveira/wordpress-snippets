@@ -1,0 +1,10 @@
+<snippet>
+
+	<content><![CDATA[
+the_tags('<ul><li>','</li><li>','</li></ul>'); ?>
+]]></content>
+	
+	<tabTrigger>tags</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
