@@ -15,7 +15,7 @@ query_posts( $args = array(
 
 while ( have_posts() ) : the_post();
    
-   /* Content goes here */
+   /* The content goes here */
 
 endwhile;
 
