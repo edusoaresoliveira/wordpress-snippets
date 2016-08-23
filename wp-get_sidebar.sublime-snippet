@@ -4,7 +4,7 @@
  * Load sidebar template.
  * codex: https://developer.wordpress.org/reference/functions/get_sidebar/
  */
-get_sidebar('Sidebar');
+get_sidebar('sidebar-name');
 	]]></content>
 
 	<tabTrigger>get_sidebar</tabTrigger>
