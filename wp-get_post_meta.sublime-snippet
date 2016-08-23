@@ -1,5 +1,9 @@
 <snippet>
 	<content><![CDATA[
+/*
+ * Retrieve post meta field for a post.
+ * codex: https://developer.wordpress.org/reference/functions/get_post_meta/
+ */
 echo get_post_meta(\$post->ID, 'meta-name', true); ?>
 	]]></content>
 	
