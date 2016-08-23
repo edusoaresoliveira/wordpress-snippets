@@ -1,0 +1,10 @@
+<snippet>
+
+	<content><![CDATA[
+the_permalink(); ?> 
+]]></content>
+	
+	<tabTrigger>the_permalink</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
