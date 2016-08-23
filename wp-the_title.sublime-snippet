@@ -1,5 +1,9 @@
 <snippet>
 	<content><![CDATA[
+/*
+ * Displays or returns the title of the current post
+ * codex: https://codex.wordpress.org/Function_Reference/the_title
+ */
 the_title( \$before, \$after, \$echo );
 	]]></content>
 	
