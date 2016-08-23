@@ -1,5 +1,9 @@
 <snippet>
 	<content><![CDATA[
+/*
+ * Display post excerpt.
+ * codex: https://developer.wordpress.org/reference/functions/the_excerpt/
+ */
 the_excerpt(); ?> 
 ]]></content>
 	
