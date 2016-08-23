@@ -1,10 +1,8 @@
 <snippet>
-
 	<content><![CDATA[
 the_excerpt(); ?> 
 ]]></content>
 	
 	<tabTrigger>the_excerpt</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
