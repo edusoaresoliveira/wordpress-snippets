@@ -1,0 +1,10 @@
+<snippet>
+	
+	<content><![CDATA[
+the_category( \$separator, \$parents, \$post_id ); ?>
+]]></content>
+	
+	<tabTrigger>category-name-link</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
