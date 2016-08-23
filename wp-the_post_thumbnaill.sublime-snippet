@@ -9,7 +9,7 @@ the_post_thumbnail('medium');          // Medium resolution
 the_post_thumbnail('large');           // Large resolution
 the_post_thumbnail('full');           // Original resolution
 
-the_post_thumbnail( array(100,100) );  // Other resolutions ?>
+the_post_thumbnail( array(100,100) );  // Other resolutions
 	]]></content>
 	
 	<tabTrigger>the_post_thumbnail</tabTrigger>
