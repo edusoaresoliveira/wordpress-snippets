@@ -4,7 +4,7 @@
  * Display post content.
  * codex: https://developer.wordpress.org/reference/functions/the_content/
  */
-the_content(); ?> 
+the_content();
 	]]></content>
 	
 	<tabTrigger>the_content</tabTrigger>
