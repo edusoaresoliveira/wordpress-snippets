@@ -1,6 +1,9 @@
 <snippet>
-
 	<content><![CDATA[
+/*
+ * Returns boolean Whether a registered nav menu location has a menu assigned(true) or not(false).
+ * codex: https://codex.wordpress.org/Function_Reference/has_nav_menu
+ */
 if ( has_nav_menu( 'primary' ) ) : ?>
 	<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'meiadoisA' ); ?>">
 		<?php
@@ -25,9 +28,8 @@ if ( has_nav_menu( 'primary' ) ) : ?>
 		?>
 	</nav><!-- .main-navigation -->
 <?php endif; ?>
-]]></content>
+	]]></content>
 	
-	<tabTrigger>menu</tabTrigger>
+	<tabTrigger>has_nav_menu</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
