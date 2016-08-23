@@ -4,7 +4,7 @@
 /**
 * Filters the display of the permalink for the current post.
 *
-* More: https://developer.wordpress.org/reference/functions/the_permalink/
+* Codex: https://codex.wordpress.org/Function_Reference/the_permalink
 */
 the_permalink(); ?> 
 ]]></content>
