@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * This template tag displays a link to the tag or tags a post belongs to.
+ * codex: https://codex.wordpress.org/Function_Reference/the_tags
+ */
+the_tags( $before, $sep, $after );
+]]></content>
+	
+	<tabTrigger>the_tags</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
