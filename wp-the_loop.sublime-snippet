@@ -1,5 +1,9 @@
 <snippet>
 	<content><![CDATA[
+/*
+ * Display posts.
+ * codex: https://codex.wordpress.org/The_Loop
+ */
 if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 	<!-- The content goes here -->
@@ -20,6 +24,6 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 <?php endif; ?>
 ]]></content>
 	
-	<tabTrigger>loop</tabTrigger>
+	<tabTrigger>the_loop</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
