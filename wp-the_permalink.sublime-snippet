@@ -1,6 +1,17 @@
 <snippet>
 
 	<content><![CDATA[
+/**
+* Filters the display of the permalink for the current post.
+*
+* @since 1.5.0
+* @since 4.4.0 Added the `$post` parameter.
+*
+* @param string      $permalink The permalink for the current post.
+* @param int|WP_Post $post      Post ID, WP_Post object, or 0. Default 0.
+*
+* More: https://developer.wordpress.org/reference/functions/the_permalink/
+*/
 the_permalink(); ?> 
 ]]></content>
 	
