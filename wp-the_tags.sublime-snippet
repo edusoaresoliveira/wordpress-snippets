@@ -5,7 +5,7 @@
  * codex: https://codex.wordpress.org/Function_Reference/the_tags
  */
 the_tags( $before, $sep, $after );
-]]></content>
+	]]></content>
 	
 	<tabTrigger>the_tags</tabTrigger>
 	<scope>source.php</scope>
