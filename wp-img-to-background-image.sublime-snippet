@@ -1,6 +1,8 @@
 <snippet>
-
 	<content><![CDATA[
+/*
+ * Convert attachments images of img to background-image.
+ */
 global $post;
 
 if (current_theme_supports('post-thumbnails') && has_post_thumbnail(\$post -> ID)) {
@@ -14,9 +16,8 @@ if (current_theme_supports('post-thumbnails') && has_post_thumbnail(\$post -> ID
 ?>
 
 <div style=" background-image: url('<?php echo \$page_bg_image_url; ?>'); "></div>
-]]></content>
+	]]></content>
 	
 	<tabTrigger>img-to-background-image</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
