@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Display the current category name.
+ */
+\$category = get_the_category(''); echo \$category[0]->cat_name;
+	]]></content>
+	
+	<tabTrigger>get_the_category</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
