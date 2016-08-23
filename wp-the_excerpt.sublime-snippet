@@ -5,7 +5,7 @@
  * codex: https://developer.wordpress.org/reference/functions/the_excerpt/
  */
 the_excerpt(); ?> 
-]]></content>
+	]]></content>
 	
 	<tabTrigger>the_excerpt</tabTrigger>
 	<scope>source.php</scope>
