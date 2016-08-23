@@ -12,6 +12,6 @@ if ( \$category->category_parent == 0 && \$category->cat_ID != 10/*Change to the
 echo \$category->cat_name . ' ';
 	]]></content>
 	
-	<tabTrigger>category-exlcude-specific</tabTrigger>
+	<tabTrigger>get_category_parents(exclude-especific)</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
