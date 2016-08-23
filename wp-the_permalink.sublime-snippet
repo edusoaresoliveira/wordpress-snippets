@@ -1,11 +1,10 @@
 <snippet>
 	<content><![CDATA[
-/**
-* Filters the display of the permalink for the current post.
-*
-* Codex: https://codex.wordpress.org/Function_Reference/the_permalink
-*/
-the_permalink(); ?> 
+/*
+ * Filters the display of the permalink for the current post.
+ * Codex: https://codex.wordpress.org/Function_Reference/the_permalink
+ */
+the_permalink(); 
 ]]></content>
 	
 	<tabTrigger>the_permalink</tabTrigger>
