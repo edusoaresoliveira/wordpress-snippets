@@ -1,5 +1,4 @@
 <snippet>
-
 	<content><![CDATA[
 /**
 * Filters the display of the permalink for the current post.
@@ -11,5 +10,4 @@ the_permalink(); ?>
 	
 	<tabTrigger>the_permalink</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
