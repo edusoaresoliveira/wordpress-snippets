@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * List posts in the same category.
+ */
+if(is_category() || is_single()) {
+	foreach(get_the_category() as \$category) {
+		\$current = \$category->cat_ID;
+		\$current_name = \$category->cat_name;
+		\$myposts = get_posts(array(
+			'category__in' => array(\$current), 
+			'post__not_in' => array(\$post->ID), 
+			'orderby' => 'title', 
+			'order' => 'asc'
+			)
+		);
+	}
+}
+
+foreach(\$myposts as \$post) :
+setup_postdata(\$post); 
+?>
+	
+<!-- the content goes here -->
+
+<?php endforeach; ?>
+	]]></content>
+	
+	<tabTrigger>posts-same-category</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
