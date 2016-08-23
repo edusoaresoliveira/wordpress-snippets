@@ -1,0 +1,10 @@
+<snippet>
+
+	<content><![CDATA[
+get_sidebar('Sidebar'); ?>
+]]></content>
+	
+	<tabTrigger>sidebar</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
