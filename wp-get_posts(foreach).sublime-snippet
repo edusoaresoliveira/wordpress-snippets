@@ -1,6 +1,9 @@
 <snippet>
-
 	<content><![CDATA[
+/*
+ * Retrieves a list of recent posts or posts matching this criteria, outside the loop.
+ * codex: https://codex.wordpress.org/Template_Tags/get_posts
+ */
 \$args = array( 
 	'posts_per_page'   => -1,
 	'post__not_in'     => array(\$post->ID),
@@ -27,9 +30,8 @@
 <?php endforeach;
 	wp_reset_postdata();
 ?>
-]]></content>
+	]]></content>
 	
-	<tabTrigger>foreach</tabTrigger>
+	<tabTrigger>get_posts(foreach)</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
