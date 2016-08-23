@@ -3,7 +3,7 @@
 	<content><![CDATA[
 if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<!-- Content goes here -->
+	<!-- The content goes here -->
 
 	<?php endwhile; ?>
 
