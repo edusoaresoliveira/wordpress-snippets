@@ -1,6 +1,9 @@
 <snippet>
-	
 	<content><![CDATA[
+/*
+ * Displays a list of the sites's authors (users).
+ * https://codex.wordpress.org/Function_Reference/wp_list_authors
+ */
 \$args = array(
 	'orderby'       => 'name', 
     	'order'         => 'ASC', 
@@ -20,11 +23,8 @@
 );
 
 wp_list_authors( \$args );
-
-?>
-]]></content>
+	]]></content>
 	
-	<tabTrigger>author</tabTrigger>
+	<tabTrigger>list_authors</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
