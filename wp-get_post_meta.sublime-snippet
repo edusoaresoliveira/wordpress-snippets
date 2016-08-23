@@ -1,10 +1,8 @@
 <snippet>
-	
 	<content><![CDATA[
 echo get_post_meta(\$post->ID, 'meta-name', true); ?>
-]]></content>
+	]]></content>
 	
-	<tabTrigger>post-meta</tabTrigger>
+	<tabTrigger>get_post_meta</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
