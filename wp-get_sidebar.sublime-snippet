@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Load sidebar template.
+ * codex: https://developer.wordpress.org/reference/functions/get_sidebar/
+ */
+get_sidebar('Sidebar'); ?>
+	]]></content>
+
+	<tabTrigger>get_sidebar</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
