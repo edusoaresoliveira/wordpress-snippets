@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Display search form.
+ * codex: https://codex.wordpress.org/Creating_a_Search_Page
+ */
+get_search_form(); ?> 
+	]]></content>
+	
+	<tabTrigger>get_search_form</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
