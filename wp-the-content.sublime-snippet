@@ -1,0 +1,10 @@
+<snippet>
+
+	<content><![CDATA[
+the_content(); ?> 
+]]></content>
+	
+	<tabTrigger>the_content</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
