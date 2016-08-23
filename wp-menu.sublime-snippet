@@ -1,0 +1,33 @@
+<snippet>
+
+	<content><![CDATA[
+if ( has_nav_menu( 'primary' ) ) : ?>
+	<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'meiadoisA' ); ?>">
+		<?php
+			wp_nav_menu( array(
+			'theme_location'  => 'primary',
+			'menu'            => 'primary-menu',
+			'container'       => '',
+			'container_class' => '',
+			'container_id'    => '',
+			'menu_class'      => 'menu',
+			'menu_id'         => '',
+			'echo'            => true,
+			'fallback_cb'     => 'wp_page_menu',
+			'before'          => '',
+			'after'           => '',
+			'link_before'     => '',
+			'link_after'      => '',
+			'items_wrap'      => '<ul id="%1\$s" class="%2\$s">%3\$s</ul>',
+			'depth'           => 0,
+			'walker'          => ''
+			 ) );
+		?>
+	</nav><!-- .main-navigation -->
+<?php endif; ?>
+]]></content>
+	
+	<tabTrigger>menu</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
