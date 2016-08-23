@@ -1,10 +1,8 @@
 <snippet>
-	
 	<content><![CDATA[
-the_title( \$before, \$after, \$echo ); ?> 
-]]></content>
+the_title( \$before, \$after, \$echo );
+	]]></content>
 	
 	<tabTrigger>the_title</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
