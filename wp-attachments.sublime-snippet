@@ -1,27 +1,28 @@
 <snippet>
-	
 	<content><![CDATA[
+/*
+ * Display the attachments archives.
+ * codex: https://codex.wordpress.org/Attachments
+ */
 \$args = array(
-	'post_type'           => 'attachment',
-	'post_mime_type'      => 'application/pdf,application/msword,application/vnd.ms-powerpoint,application/vnd.ms-excel,application/zip,audio,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation',/*Select the type you need*/
-	'numberposts'         => -1,
-    	'post_status'         => null,
-    	'post_parent'         => null,
-    	'orderby'             => 'title',
-    	'order'               => 'asc',
-	'post_parent'         => \$post->ID,
-	'post_parent__not_in' => array( 0 )
+ 	'post_type'           => 'attachment',
+ 	'post_mime_type'      => 'application/pdf,application/msword,application/vnd.ms-powerpoint,application/vnd.ms-excel,application/zip,audio,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation',/*Select the type you need*/
+ 	'numberposts'         => -1,
+     	'post_status'         => null,
+     	'post_parent'         => null,
+     	'orderby'             => 'title',
+     	'order'               => 'asc',
+ 	'post_parent'         => \$post->ID,
+ 	'post_parent__not_in' => array( 0 )
 );
-	\$attachments = get_posts(\$args);
-	if ( \$attachments ):
-		foreach ( \$attachments as \$attachment ):
-			echo wp_get_attachment_image(\$attachment->ID, 'full');
-		endforeach;
-	endif;
-?>
+\$attachments = get_posts(\$args);
+if ( \$attachments ):
+	foreach ( \$attachments as \$attachment ):
+		/*The content goes here*/
+	endforeach;
+endif;
 ]]></content>
 	
 	<tabTrigger>attachments</tabTrigger>
 	<scope>source.php</scope>
-
 </snippet>
