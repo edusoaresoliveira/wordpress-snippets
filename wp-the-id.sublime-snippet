@@ -1,0 +1,10 @@
+<snippet>
+	
+	<content><![CDATA[
+the_ID(); ?> 
+]]></content>
+	
+	<tabTrigger>the_id</tabTrigger>
+	<scope>source.php</scope>
+
+</snippet>
